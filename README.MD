@@ -1,4 +1,6 @@
 # Angular Vertical Timeline
+## This version is a Fork from the original author, https://github.com/TechGapItalia/angular-vertical-timeline
+
 [![license](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://travis-ci.org/TechGapItalia/angular-vertical-timeline.svg)](https://travis-ci.org/TechGapItalia/angular-vertical-timeline.svg)
 ## Branch organization
