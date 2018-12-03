@@ -6,7 +6,8 @@
 
   <div class="timeline-content" [ngClass]="{'disabled-element': disabled}">
     <div class="date" [style.background]="color">
-      <p [style.color]="textColor">{{dateValue | date:"dd MMMM yyyy"}}</p>
+      <p *ngIf="timeDisplayType === 'complete'" [style.color]="textColor">{{dateValue | date:"dd MMMM yyyy"}}</p>
+      <p *ngIf="timeDisplayType === 'numbers'" [style.color]="textColor">{{dateValue | date:"dd/MM/yyyy"}}</p>
     </div>
 
     <div class="inner-content">
